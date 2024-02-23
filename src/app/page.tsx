@@ -32,11 +32,13 @@ export default function Home () {
       <div>
         <Image
           src="/fotoDePerfil3.jpg"
-          alt=""
+          alt="Foto de Perfil"
           width={450}
           height={550}
         >
         </Image>
+        <h1>Gustavo Mendes</h1>
+        <p>Full Stack Developer</p>
       </div>
       </main>
       <main>
