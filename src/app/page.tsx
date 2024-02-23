@@ -10,7 +10,7 @@ export default function Home () {
           <p>
             Hello  Next.js
           </p>
-          <Link href='/users'> User </Link>
+          <Link href='/users'> Page User </Link>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
