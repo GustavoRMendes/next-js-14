@@ -1,6 +1,10 @@
+import type { NextPage } from "next";
 import Link from "next/link";
-
-const Page = () => {
+export const metadata = {
+  title: '',
+  description:''
+}
+const Page : NextPage = () => {
   return (
     <>
       <Link href='/'> Página Inicial </Link>
