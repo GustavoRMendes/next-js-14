@@ -1,3 +1,4 @@
+import InputForm from "@/components/InputForm";
 import type { NextPage } from "next";
 import Link from "next/link";
 export const metadata = {
@@ -12,6 +13,7 @@ const Page : NextPage = () => {
       <p>Sou estudante de sistemas de informação. Amo ajudar pessoas, resolver problemas e principalmente programar.
         Comecei meio tarde a estudar programação, porém minha paixão já é enorme.
       </p>
+      <InputForm/>
 
     </>
   )
