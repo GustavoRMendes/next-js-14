@@ -1,7 +1,13 @@
+import React, { Suspense } from 'react'
 export default function PagePerson() {
   return (
-    <div>
-      Pastas organizadas
-    </div>
+    <>
+    <Suspense fallback={<p>Loading...</p>}>
+      <div>
+        Pastas organizadas
+      </div>
+    </Suspense>
+    </>
+    
   )
 }
