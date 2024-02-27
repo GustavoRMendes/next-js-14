@@ -1,7 +1,13 @@
-export default function UserPage({params}: {params: {id: string}}) {
+import React from "react"
+interface PropsPage {
+  params: {
+    id: string
+  }
+}
+export default function UserPage({params}: PropsPage) {
   return (
     <div>
-      <h2>Hello User {params.id}</h2>
+      <h2>Hello Person {params.id}</h2>
     </div>
   )
 }
