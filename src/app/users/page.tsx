@@ -1,8 +1,8 @@
 import InputForm from "../../components/InputForm";
-import type { NextPage } from "next";
+import type { Metadata, NextPage } from "next";
 import Link from "next/link";
 import React from "react";
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Usuário'
 }
 const Page: NextPage = () => {

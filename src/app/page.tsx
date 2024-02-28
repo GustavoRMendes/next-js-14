@@ -1,14 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-
 export default function Home () {
   return (
     <>
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Hello  Next.js
+            Hello Next.js
           </p>
           <Link href='/users'> Page User </Link>
           <div>
