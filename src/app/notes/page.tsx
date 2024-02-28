@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import InputForm from '@/components/InputForm';
 export const metadata = {
   title: 'Notes',
 };
@@ -13,6 +14,7 @@ export default function PageNotes () {
         <Link href='/'>Home</Link>
       </nav>
       <h2>Notes</h2>
+      <InputForm />
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam magnam temporibus tempora quis cum aliquam impedit, aspernatur esse corporis, asperiores optio cumque error quaerat ad, quasi voluptatum molestiae iure in?
       </p>
