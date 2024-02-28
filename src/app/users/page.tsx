@@ -8,7 +8,8 @@ export const metadata = {
 const Page: NextPage = () => {
   return (
     <>
-      <Link href='/'> Página Inicial </Link>
+      <Link href='/'> Home </Link>
+      <Link href='/notes'> Notes </Link>
       <h1>Gustavo Mendes</h1>
       <h2>Desenvolvedor Full Stack</h2>
       <p>
