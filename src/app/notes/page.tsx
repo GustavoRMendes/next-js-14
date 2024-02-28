@@ -1,6 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+export const metadata = {
+  title: 'Notes',
+};
 export default function PageNotes () {
+
   return (
     <>
       <nav style={{ display: 'flex', gap: '2rem' }}>
