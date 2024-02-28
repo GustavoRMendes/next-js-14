@@ -4,7 +4,7 @@ import React from 'react'
 export default function Header () {
   return (
     <>
-      <nav style={{ display: 'flex', gap: '2rem' }}>
+      <nav style={{ display: 'flex', gap: '2rem',fontSize:'25px',padding: '2rem' }}>
         <Link href='/users'>User</Link>
         <Link href='/'>Home</Link>
         <Link href='/notes'> Notes </Link>

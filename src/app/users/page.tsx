@@ -10,13 +10,13 @@ const Page: NextPage = () => {
   
   return (
     <>
-      <Header />
+      <Header /> 
       <h1>Gustavo Mendes</h1>
       <h2>Desenvolvedor Full Stack</h2>
       <p>
         Sou estudante de sistemas de informação.
         Amo ajudar pessoas, resolver problemas e principalmente programar.
-      </p>
+      </p> <br/>
       <InputForm />
     </>
   )

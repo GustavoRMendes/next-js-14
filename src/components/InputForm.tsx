@@ -12,19 +12,17 @@ export default function InputForm() {
       <p>
         Caminho Atual: {pathname}
       </p>
+      <form>
+        <label>E-mail: </label>
+        <input type="email" value={inputValue} onChange={(ev) => setInputValue(ev.target.value)} />
+        <button type="submit">Inscrever-se</button>
+      </form>
+      <br/>
       <nav>
         <button onClick={() => router.push('/')} type="button">
           Voltar para o Início
         </button>
       </nav>
-      <form>
-        <label>E-mail:</label>
-        <input type="email" value={inputValue} onChange={(ev) => setInputValue(ev.target.value)} />
-        <button type="submit">Inscrever-se</button>
-        <div>
-          {inputValue}
-        </div>
-      </form>
     </>
 
   )
