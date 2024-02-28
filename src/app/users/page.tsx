@@ -6,10 +6,12 @@ export const metadata = {
   title: 'Usuário'
 }
 const Page: NextPage = () => {
+  
   return (
     <>
       <Link href='/'> Home </Link>
       <Link href='/notes'> Notes </Link>
+    
       <h1>Gustavo Mendes</h1>
       <h2>Desenvolvedor Full Stack</h2>
       <p>
