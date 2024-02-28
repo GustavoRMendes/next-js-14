@@ -2,6 +2,7 @@ import InputForm from "../../components/InputForm";
 import type { Metadata, NextPage } from "next";
 import Link from "next/link";
 import React from "react";
+
 export const metadata: Metadata = {
   title: 'Usuário'
 }
@@ -18,7 +19,7 @@ const Page: NextPage = () => {
         Sou estudante de sistemas de informação.
         Amo ajudar pessoas, resolver problemas e principalmente programar.
       </p>
-      <InputForm />
+        <InputForm />
     </>
   )
 }
