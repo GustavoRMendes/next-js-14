@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import InputForm from '../../components/InputForm';
 import type { Metadata } from 'next';
+import Header from '../../components/Header';
 export const metadata: Metadata = {
   title: 'Notes',
 };
@@ -10,12 +10,9 @@ export const metadata: Metadata = {
 export default function PageNotes () {
   return (
     <>
-      <nav style={{ display: 'flex', gap: '2rem' }}>
-        <Link href='/users'>User</Link>
-        <Link href='/'>Home</Link>
-      </nav>
-      <h2>Notes</h2>
+      <Header/>
       <InputForm />
+      <h2>Notes</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam magnam temporibus tempora quis cum aliquam impedit, aspernatur esse corporis, asperiores optio cumque error quaerat ad, quasi voluptatum molestiae iure in? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus eos minima similique, ab eius dignissimos, repudiandae soluta deleniti officia vel vero unde fugiat suscipit quidem sint distinctio? Illo, dignissimos quae.
       </p>
