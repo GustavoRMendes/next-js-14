@@ -32,8 +32,9 @@ export default function Home () {
         <Image
           src="/fotoDePerfil3.jpg"
           alt="Foto de Perfil"
-          width={450}
+          width={420}
           height={550}
+          style={{borderRadius:'.3rem'}}
         >
         </Image>
         <h1>Gustavo Mendes</h1>
