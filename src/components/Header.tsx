@@ -8,6 +8,7 @@ export default function Header () {
         <Link href='/users' prefetch={true} scroll={true}>User</Link>
         <Link href='/' prefetch={true} scroll={true}>Home</Link>
         <Link href='/notes' prefetch={true} scroll={true}> Notes </Link>
+        <Link href='/blog'>Blog</Link>
       </nav>
     </>
   )

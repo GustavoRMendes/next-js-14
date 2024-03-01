@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import Header from '@/components/Header'
 interface BlogParam {
   params: {
     slug: string[]
@@ -6,8 +8,11 @@ interface BlogParam {
 }
 export default function BlogParams({params}:BlogParam) {
   return (
+    <>
+       <Header/>
     <div>
        {params.slug.join('/')}
     </div>
+    </>
   )
 }
